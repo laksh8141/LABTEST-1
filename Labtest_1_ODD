@@ -1,0 +1,54 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy import special,linalg,sparse
+
+n=int(input("Enter the number of patient: "))
+ID = int(input("Enter the id: "))
+Assign_Doc = input("Enter name: ")
+prsnl_info = input("Enter info: ")
+Med_His = input("Enter History: ")
+Treat_Details = input("Enter details: ")
+Total_Bill = input("Enter bill: ")
+for i in range(n+1):
+    patient_list =[ID,Assign_Doc,prsnl_info,Med_His,Treat_Details,Total_Bill]
+print(np.array(patient_list))
+
+
+N=int(input("Enter the number of doctors: "))
+ID_Doc = int(input("Enter the id: "))
+Name = input("Enter name: ")
+Specialization = input("Enter specialization: ")
+for i in range(N):
+    doctor_list = [ID_Doc,Name,Specialization]
+print(np.array(doctor_list))
+
+
+def update_details():
+    pass
+
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy import special,linalg,sparse
+
+n=int(input("Enter the number of patient: "))
+ID = int(input("Enter the id: "))
+Assign_Doc = input("Enter name: ")
+prsnl_info = input("Enter info: ")
+Med_His = input("Enter History: ")
+Treat_Details = input("Enter details: ")
+Total_Bill = input("Enter bill: ")
+for i in range(n):
+    patient_list = [ID,Assign_Doc,prsnl_info,Med_His,Treat_Details,Total_Bill]
+print(np.array(patient_list))
+
+
+N=int(input("Enter the number of doctors: "))
+ID_Doc = int(input("Enter the id: "))
+Name = input("Enter name: ")
+Specialization = input("Enter specialization: ")
+for i in range(N):
+    doctor_list = [id,Name,Specialization]
+print(np.array(doctor_list))
+
+
+def update_details():
